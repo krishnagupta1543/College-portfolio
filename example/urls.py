@@ -1,0 +1,11 @@
+from django.contrib import admin
+from django.urls import path
+from example import views
+
+ 
+urlpatterns = [
+    
+     
+    path("", views.register, name ='example')
+    #path("", views.home, name ='example')
+]
